@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bgnav {
+  background-color: #ffae00;
+}
+
+.about button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.btnchoice {
+  display: flex;
+  margin-top: 20px; /* Atur margin atas sesuai kebutuhan */
+}
+
+.btnchoice a {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px; /* Atur padding bawah sesuai kebutuhan */
+}
+
+.btnchoice a::after {
+  content: "";
+  display: block;
+  height: 2px; /* Atur tinggi garis bawah sesuai kebutuhan */
+  width: 0;
+  background-color: #ffae00; /* Atur warna garis bawah sesuai kebutuhan */
+  transition: width 0.3s ease; /* Efek transisi lebar garis bawah */
+}
+
+.btnchoice a:hover::after,
+.btnchoice a.active::after {
+  width: 100%;
+}
+
+/* Gaya tambahan untuk memisahkan button */
+.btnchoice a + a {
+  margin-left: 20px; /* Atur margin kiri antar button sesuai kebutuhan */
+}
+
+.btnchoice a button {
+  padding: 5px 15px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  border-bottom: 2px solid #ffae0000;
+}
+
+.login {
+  display: none;
+}
+
+.custom-dropdown {
+  max-width: 41.66666667%; /* Atur lebar maksimum sesuai kebutuhan */
+}
+
+.Pemberitahuan li {
+  margin-bottom: 5px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.Pemberitahuan {
+  display: block;
+}
+
+.loginbt button {
+  background-color: #ffae00;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.form-input {
+  text-indent: 10px; /* Sesuaikan jumlah text-indent sesuai kebutuhan */
+}
+
+ol li {
+  color: red;
+}
